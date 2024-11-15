@@ -15,7 +15,7 @@ Request parameters, request body content, and optional query parameters must be 
         return ret
     }
   ```
-- using middlewares directly when calling the routes in the `routers` module (preferred option for simplicity)
+- using middleware directly when calling the routes in the `routers` module (preferred option for simplicity)
   Example:
   ```javascript
   this.router.post(
